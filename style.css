@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+  }
+
+body{ 
+    
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+nav{
+    background-color: white;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+        
+}
+nav a img{
+    width: 30px;
+    height: 30px;
+    
+}  
+
+nav ul li{
+    display: inline-block;
+    font-size: 19px;
+    padding: 15px;
+}
+
+nav input{
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+img {
+    float: left;
+    width: 19%;
+    border-radius: 30px;
+    box-shadow: inset;
+}
+.columna {
+    display: flex;  
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.fila {
+    flex: 25%;
+    padding: 5px;
+}
+.fila img {
+    margin-top: 5px;
+
+}
+
